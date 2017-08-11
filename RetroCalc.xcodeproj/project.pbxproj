@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B61087E1ECF90E400C6A3A3 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B61087D1ECF90E400C6A3A3 /* Minecrafter.Alt.ttf */; };
+		9B6108801ECF92CB00C6A3A3 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B61087F1ECF92CB00C6A3A3 /* btn.wav */; };
 		9B69A6DE1EA94C3000466AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A6DD1EA94C3000466AF9 /* AppDelegate.swift */; };
 		9B69A6E01EA94C3000466AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69A6DF1EA94C3000466AF9 /* ViewController.swift */; };
 		9B69A6E31EA94C3000466AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B69A6E11EA94C3000466AF9 /* Main.storyboard */; };
@@ -15,9 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B61087D1ECF90E400C6A3A3 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
+		9B61087F1ECF92CB00C6A3A3 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		9B69A6DA1EA94C3000466AF9 /* RetroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B69A6DD1EA94C3000466AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B69A6DF1EA94C3000466AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B69A6DF1EA94C3000466AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
 		9B69A6E21EA94C3000466AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B69A6E41EA94C3000466AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B69A6E71EA94C3000466AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		9B69A6DC1EA94C3000466AF9 /* RetroCalc */ = {
 			isa = PBXGroup;
 			children = (
+				9B61087F1ECF92CB00C6A3A3 /* btn.wav */,
+				9B61087D1ECF90E400C6A3A3 /* Minecrafter.Alt.ttf */,
 				9B69A6DD1EA94C3000466AF9 /* AppDelegate.swift */,
 				9B69A6DF1EA94C3000466AF9 /* ViewController.swift */,
 				9B69A6E11EA94C3000466AF9 /* Main.storyboard */,
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B6108801ECF92CB00C6A3A3 /* btn.wav in Resources */,
 				9B69A6E81EA94C3000466AF9 /* LaunchScreen.storyboard in Resources */,
 				9B69A6E51EA94C3000466AF9 /* Assets.xcassets in Resources */,
+				9B61087E1ECF90E400C6A3A3 /* Minecrafter.Alt.ttf in Resources */,
 				9B69A6E31EA94C3000466AF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				9B69A6EE1EA94C3000466AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
